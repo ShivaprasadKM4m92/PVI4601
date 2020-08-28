@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\Script10_FUPQuery
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\script10_fupquery\\logfile.log
+c:\project\pvi\scripts\script10_fupquery\\combined_Script10_FUPQuery.c
+c:\project\pvi\scripts\script10_fupquery\\pre_cci.c

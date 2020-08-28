@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:58:10 GMT
+ETag: "vendor/tinymce/plugins/link/plugin.min-31f50d6cf1aaa8a76265891d4ce96f2f.js"
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=utf-8
+Content-Length: 3417
+Date: Fri, 28 Aug 2020 07:55:08 GMT
+

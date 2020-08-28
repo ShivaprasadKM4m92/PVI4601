@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Script10_FUPQuery.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="FUPQuery_01_OpenApplication__*delimiter*__FUPQuery_02_Login__*delimiter*__FUPQuery_03_NavigateToPVIntake__*delimiter*__FUPQuery_04_CaseListMyCases__*delimiter*__FUPQuery_05_CaseListAllCases__*delimiter*__FUPQuery_FilterCase__*delimiter*__FUPQuery_06_AddFUQuery__*delimiter*__FUPQuery_07_CreateFUQuery_Fax__*delimiter*__FUPQuery_ClearFilter__*delimiter*__FUPQuery_08_NavigateToPVAdmin__*delimiter*__FUPQuery_09_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+FUPQuery_01_OpenApplication=
+FUPQuery_02_Login=
+FUPQuery_03_NavigateToPVIntake=
+FUPQuery_04_CaseListMyCases=
+FUPQuery_05_CaseListAllCases=
+FUPQuery_FilterCase=
+FUPQuery_06_AddFUQuery=
+FUPQuery_07_CreateFUQuery_Fax=
+FUPQuery_ClearFilter=
+FUPQuery_08_NavigateToPVAdmin=
+FUPQuery_09_Logout=
