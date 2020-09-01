@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\CaseUpdate\UpdateCase2_21Prds21Events
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\caseupdate\updatecase2_21prds21events\\logfile.log
+c:\project\pvi\scripts\caseupdate\updatecase2_21prds21events\\combined_UpdateCase2_21Prds21Events.c
+c:\project\pvi\scripts\caseupdate\updatecase2_21prds21events\\pre_cci.c

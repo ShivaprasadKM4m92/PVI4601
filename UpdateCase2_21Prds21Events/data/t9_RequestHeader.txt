@@ -1,0 +1,14 @@
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: ANID=AHWqTUncjGRcHYQScTV_Dnep0u8vJB5cnvthpNbyaol5bYB8FbuvmE1VHp6sU7Wj; ACCOUNT_CHOOSER=AFx_qI7wKR7_aWeadyH2hQTKQrvmysM7yC9B-Cj_vA4feUqO6wZ9lZdHhfvYM-xoTv3u1hcoWrTNKmP06GgUeQWRTYKXYLV2PC9Njloeg-KyytzMskmgUEBjG376zFTkM2DnykR0Wu6T; SEARCH_SAMESITE=CgQIxpAB; GAPS=1:GQDmXkoNJltGoo6IJAXZsUgYoIB5UPcTTEMU1vnVj-jGFDj_yUaPoKGPErgbkg8_ONXV7eMnJCkxPldLc3LO7voKu_yqMA:3QC3v8pKkgqr_cmI; __Host-GAPS=1:GQDmXkoNJltGoo6IJAXZsUgYoIB5UPcTTEMU1vnVj-jGFDj_yUaPoKGPErgbkg8_ONXV7eMnJCkxPldLc3LO7voKu_yqMA:3QC3v8pKkgqr_cmI; NID=204=ipsxCVPihZoMQhZVz6nR4Sw3fGp6YOQm_ypN-bWj4_8qKOS8hg6byZgYz00pPOFZzRfaYYM5KcT-W6WJPvgETZfFZ_PZpb4FgG8khmo0HNuse4NTNB4Ub1MgUzpCmku_wyMkhmdj-DGYLX7BDrQ7gA02KJESPF3tikH2e2OHJ5mt8YQjBg; 1P_JAR=2020-09-01-10
+

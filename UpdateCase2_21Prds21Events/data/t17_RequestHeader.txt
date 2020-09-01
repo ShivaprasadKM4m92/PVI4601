@@ -1,0 +1,14 @@
+POST /service/update2/json?cup2key=10:3975042646&cup2hreq=c210f31482e75f218e03bb3095b83ff343ac0784c141afde04d9c820a28e3ce6 HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 5486
+X-Goog-Update-AppId: ihnlcenocehgdaegdmhbidjhnhdchfmm,cmahhnpholdijhjokonmfdjbfmklppij,mimojjlkmoijpicakmndhoigimigcmbb,hfnkpimlhhgieaddgfemjhofmfblmnib,khaoiebndkojlmppeemjhbpbandiljpe,oimompecagnajdejgnnjijobebaeigek,gkmgaooipdjhmangpemjhigmamcehddo,aemomkdncapdnfajjbbcbdebjljbpmpj,gcmjkmgdlgnkkcocmoeiminaijmmjnii,llkgjffcdpffmhiakmfcdcblohccpfmo,jflookgnkcckhobaglndicnbbgbonegd,ggkkehgbnfjpeggfpleeakpidbkibbmn,hnimpnehoodheedghdeeijklkeaacbdc,ehgidpndbllacpjalkiimkbadgjfnnmc,giekcmmlnklenlaomppkphknjmnnpneh,bklopemakmnopmghhmccadeonafabnal
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-85.0.4183.83
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

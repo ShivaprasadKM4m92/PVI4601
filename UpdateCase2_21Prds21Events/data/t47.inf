@@ -1,0 +1,11 @@
+[t47]
+FileName1=t47_personalStats.json
+URL1=http://10.100.22.243:8081/dashboard/personalStats?_=1598964946079
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_47.xml
+RequestHeaderFile=t47_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t47_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t132]
+FileName1=t132_product_browser.html
+URL1=http://10.100.22.243:8081/assets/pv/comp/templates/product_browser.hbs
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_132.xml
+RequestHeaderFile=t132_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t132_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

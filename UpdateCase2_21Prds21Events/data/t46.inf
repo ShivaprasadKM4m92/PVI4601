@@ -1,0 +1,9 @@
+[t46]
+SnapshotXmlFile=snapshot_46.xml
+FileName1=t46.jpg
+URL1=http://10.100.22.243:8081/assets/pv-btn-bg2-6efc4f00037bcaba0fee1e7b7d70f0be.jpg
+Total=1
+RequestHeaderFile=t46_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t46_ResponseHeader.txt
+ContentType=image/jpeg

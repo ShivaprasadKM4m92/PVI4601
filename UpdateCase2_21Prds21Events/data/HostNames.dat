@@ -1,0 +1,11 @@
+[hosts]
+10.100.22.34=
+www.google-analytics.com=
+cdn.mxpnl.com=
+accounts.google.com=
+clientservices.googleapis.com=
+ssl.gstatic.com=
+api.mixpanel.com=
+update.googleapis.com=
+safebrowsing.googleapis.com=
+10.100.22.243=
