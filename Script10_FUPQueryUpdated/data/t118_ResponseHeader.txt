@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:58:10 GMT
+ETag: "vendor/tinymce/skins/lightgray/content.min-8db73e017a6fd48f80352a66b2be8507.css"
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Type: text/css;charset=utf-8
+Content-Length: 1373
+Date: Fri, 28 Aug 2020 07:55:11 GMT
+

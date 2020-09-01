@@ -1,0 +1,14 @@
+POST /user/loadState HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://10.100.22.243:8081/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.9
+Origin: http://10.100.22.243:8081
+X-CSRF-TOKEN: e454cc60-8774-4b3d-9a3a-862e69cd63d0
+Connection: Keep-Alive
+Host: 10.100.22.243:8081
+Cookie: SESSION=7df90daf-1e32-48d9-a79a-40b1f0b0dd0c; AuthType=Database
+Content-Length: 41
+

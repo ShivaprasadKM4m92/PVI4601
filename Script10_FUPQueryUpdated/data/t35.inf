@@ -1,0 +1,11 @@
+[t35]
+FileName1=t35_application-a0469687a4859320633b35ed9c5374ee.html
+URL1=http://10.100.22.243:8081/assets/application-a0469687a4859320633b35ed9c5374ee.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_35.xml
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t35_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

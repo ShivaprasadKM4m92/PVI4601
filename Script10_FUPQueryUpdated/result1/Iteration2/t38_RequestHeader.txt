@@ -1,0 +1,12 @@
+GET /assets/common/hbs-templates/casePrioritySelect.hbs HTTP/1.1
+Referer: http://10.100.22.243:8081/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.9
+Origin: http://10.100.22.243:8081
+X-CSRF-TOKEN: 39f081ac-30b5-4be9-bae6-a6eacaed4398
+Connection: Keep-Alive
+Host: 10.100.22.243:8081
+Cookie: AuthType=Database; SESSION=14279ad4-fa43-461a-8117-d99ae45a4f40
+

@@ -1,0 +1,194 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: external",
+                "infFile": "t1.inf",
+                "time": 1598963288818
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t3.inf",
+                "time": 1598963294080
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: 10.100.22.243:8081",
+                "infFile": "t7.inf",
+                "time": 1598963304716
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: list",
+                "infFile": "t41.inf",
+                "time": 1598963317108
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: 1_5",
+                "infFile": "t66.inf",
+                "time": 1598963322873
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: saveState_3",
+                "infFile": "t67.inf",
+                "time": 1598963323623
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: saveState_4",
+                "infFile": "t68.inf",
+                "time": 1598963324089
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: 1_6",
+                "infFile": "t69.inf",
+                "time": 1598963326952
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: saveState_5",
+                "infFile": "t70.inf",
+                "time": 1598963328328
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: checkEditLock",
+                "infFile": "t71.inf",
+                "time": 1598963328982
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: getCaseData",
+                "infFile": "t72.inf",
+                "time": 1598963329949
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: searchData",
+                "infFile": "t73.inf",
+                "time": 1598963333486
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: save",
+                "infFile": "t74.inf",
+                "time": 1598963334103
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: saveState_6",
+                "infFile": "t75.inf",
+                "time": 1598963334667
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: 1_7",
+                "infFile": "t76.inf",
+                "time": 1598963335548
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Submit Data: saveState_7",
+                "infFile": "t77.inf",
+                "time": 1598963336480
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: 10.100.22.34:8083",
+                "infFile": "t78.inf",
+                "time": 1598963337592
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: Logout",
+                "infFile": "t79.inf",
+                "time": 1598963339830
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "FUPQuery_01_OpenApplication",
+                "rawStartTime": 1598963287741,
+                "rawEndTime": 1598963292919,
+                "thinkTime": 0.0,
+                "wastedTime": 0.21774983406066895
+            },
+            {
+                "transactionName": "FUPQuery_02_Login",
+                "rawStartTime": 1598963292958,
+                "rawEndTime": 1598963301216,
+                "thinkTime": 0.0,
+                "wastedTime": 0.432070255279541
+            },
+            {
+                "transactionName": "FUPQuery_03_NavigateToPVIntake",
+                "rawStartTime": 1598963301321,
+                "rawEndTime": 1598963316293,
+                "thinkTime": 0.0,
+                "wastedTime": 0.6373438835144043
+            },
+            {
+                "transactionName": "FUPQuery_04_CaseListMyCases",
+                "rawStartTime": 1598963316314,
+                "rawEndTime": 1598963321983,
+                "thinkTime": 0.0,
+                "wastedTime": 0.16319990158081056
+            },
+            {
+                "transactionName": "FUPQuery_05_CaseListAllCases",
+                "rawStartTime": 1598963322003,
+                "rawEndTime": 1598963323628,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04454374313354492
+            },
+            {
+                "transactionName": "FUPQuery_FilterCase",
+                "rawStartTime": 1598963323710,
+                "rawEndTime": 1598963328340,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04111528396606445
+            },
+            {
+                "transactionName": "FUPQuery_06_AddFUQuery",
+                "rawStartTime": 1598963328379,
+                "rawEndTime": 1598963333501,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10518670082092285
+            },
+            {
+                "transactionName": "FUPQuery_07_CreateFUQuery_Fax",
+                "rawStartTime": 1598963333534,
+                "rawEndTime": 1598963334114,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010205745697021485
+            },
+            {
+                "transactionName": "FUPQuery_ClearFilter",
+                "rawStartTime": 1598963334160,
+                "rawEndTime": 1598963336507,
+                "thinkTime": 0.0,
+                "wastedTime": 0.045784711837768558
+            },
+            {
+                "transactionName": "FUPQuery_08_NavigateToPVAdmin",
+                "rawStartTime": 1598963336551,
+                "rawEndTime": 1598963337955,
+                "thinkTime": 0.0,
+                "wastedTime": 0.031066417694091798
+            },
+            {
+                "transactionName": "FUPQuery_09_Logout",
+                "rawStartTime": 1598963337996,
+                "rawEndTime": 1598963339833,
+                "thinkTime": 0.0,
+                "wastedTime": 0.021535158157348634
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:58:08 GMT
+ETag: "vendor/tinymce/skins/lightgray/fonts/tinymce-9267f79bc730290c6e2c90f9353d3ccf.woff"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/x-font-woff;charset=utf-8
+Content-Length: 9240
+Date: Fri, 28 Aug 2020 07:55:12 GMT
+
