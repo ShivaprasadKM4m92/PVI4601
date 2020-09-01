@@ -1,0 +1,11 @@
+[t141]
+FileName1=t141.htm
+URL1=http://10.100.22.243:8081/case/getKaseMedDraHierarchyStored?id=244836&_=1598966203801
+Total=1
+RequestHeaderFile=t141_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t141_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_141.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

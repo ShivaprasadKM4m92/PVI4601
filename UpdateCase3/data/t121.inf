@@ -1,0 +1,11 @@
+[t121]
+FileName1=t121.htm
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html?_=1598966203790
+Total=1
+RequestHeaderFile=t121_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t121_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_121.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

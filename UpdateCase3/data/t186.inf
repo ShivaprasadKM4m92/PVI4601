@@ -1,0 +1,11 @@
+[t186]
+FileName1=t186.htm
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html?_=1598966542598
+Total=1
+RequestHeaderFile=t186_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t186_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_186.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

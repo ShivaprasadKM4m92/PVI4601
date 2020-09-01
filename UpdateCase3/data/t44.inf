@@ -1,0 +1,11 @@
+[t44]
+FileName1=t44_redactionReason.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json?_=1598966002968
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_44.xml
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t44_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

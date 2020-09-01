@@ -1,0 +1,11 @@
+[t187]
+FileName1=t187.htm
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html?_=1598966542599
+Total=1
+RequestHeaderFile=t187_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t187_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_187.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

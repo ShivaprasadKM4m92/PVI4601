@@ -1,0 +1,11 @@
+[t179]
+FileName1=t179.htm
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html?_=1598966542590
+Total=1
+RequestHeaderFile=t179_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t179_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_179.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

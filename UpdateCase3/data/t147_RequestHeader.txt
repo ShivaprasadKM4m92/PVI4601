@@ -1,0 +1,11 @@
+GET /assets/vendor/documentViewerJson/en-US.json?_=1598966525299 HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Referer: http://10.100.22.243:8081/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=708a8197-7f2f-4a7e-a3e1-cc98bbceba70; AuthType=Database
+

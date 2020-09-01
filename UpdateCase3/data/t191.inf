@@ -1,0 +1,11 @@
+[t191]
+FileName1=t191_loadServerTime.html
+URL1=http://10.100.22.243:8081/config/loadServerTime?_=1598966542603
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_191.xml
+RequestHeaderFile=t191_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t191_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

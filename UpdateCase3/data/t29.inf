@@ -1,0 +1,11 @@
+[t29]
+FileName1=t29_UIConstants-ee3587ab40d47b8bed173814ecf5a0be.html
+URL1=http://10.100.22.243:8081/assets/UIConstants-ee3587ab40d47b8bed173814ecf5a0be.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_29.xml
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

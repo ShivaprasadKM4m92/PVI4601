@@ -1,0 +1,77 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=UpdateCase3.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+DFERebrandFlag=Done
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+custom_body_variables.txt=
+globals.h=
+lrw_custom_body.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="UpdateCase3_01_OpenApplication__*delimiter*__UpdateCase3_02_Login__*delimiter*__UpdateCase3_03_NavigateToPVIntake__*delimiter*__UpdateCase3_04_IntakeQueueMyCases__*delimiter*__UpdateCase3_05_IntakeQueueAllCases__*delimiter*__UpdateCase3_06_FilterIntakeCaseNum__*delimiter*__UpdateCase3_07_EditCase__*delimiter*__UpdateCase3_08_UpdateNarrativesFieldAndSaveCase__*delimiter*__UpdateCase3_09_Back__*delimiter*__UpdateCase3_10_IntakeQueue__*delimiter*__UpdateCase3_11_ClearFilter__*delimiter*__UpdateCase3_12_IntakeQueueMyCases__*delimiter*__UpdateCase3_13_NavigateToPVAdmin__*delimiter*__UpdateCase3_14_LogOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+UpdateCase3_01_OpenApplication=
+UpdateCase3_02_Login=
+UpdateCase3_03_NavigateToPVIntake=
+UpdateCase3_04_IntakeQueueMyCases=
+UpdateCase3_05_IntakeQueueAllCases=
+UpdateCase3_06_FilterIntakeCaseNum=
+UpdateCase3_07_EditCase=
+UpdateCase3_08_UpdateNarrativesFieldAndSaveCase=
+UpdateCase3_09_Back=
+UpdateCase3_10_IntakeQueue=
+UpdateCase3_11_ClearFilter=
+UpdateCase3_12_IntakeQueueMyCases=
+UpdateCase3_13_NavigateToPVAdmin=
+UpdateCase3_14_LogOut=

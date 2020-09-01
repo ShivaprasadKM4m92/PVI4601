@@ -1,0 +1,11 @@
+[t190]
+FileName1=t190_2.html
+URL1=http://10.100.22.243:8081/case/rest/list_columns/2?_=1598966542602
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_190.xml
+RequestHeaderFile=t190_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t190_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

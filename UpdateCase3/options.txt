@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\CaseUpdate\UpdateCase3
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\caseupdate\updatecase3\\logfile.log
+c:\project\pvi\scripts\caseupdate\updatecase3\\combined_UpdateCase3.c
+c:\project\pvi\scripts\caseupdate\updatecase3\\pre_cci.c

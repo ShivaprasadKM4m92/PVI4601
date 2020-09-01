@@ -1,0 +1,10 @@
+GET /assets/vendorUi/jquery/jquery-2.2.4-f3b292379cbb03d9a68dc04fb0ac6bf5.js HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Accept: */*
+Referer: http://10.100.22.34:8083/?token=c6cb076f-792d-45cc-aa6e-3a4a9895dfd2
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=CC02E614E2FA767ED253A975B4864221; AuthType=Database; SESSION=e3c64144-6a72-4d1d-bf91-5ab08d7f4f9f
+
