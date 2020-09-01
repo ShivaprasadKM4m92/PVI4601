@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+X-Application-Context: application:production:8010
+x-auth-token: f6bb7af1-13a7-41f7-b9fa-a3547528114d
+Set-Cookie: SESSION=f6bb7af1-13a7-41f7-b9fa-a3547528114d; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-US
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 01 Sep 2020 12:28:06 GMT
+

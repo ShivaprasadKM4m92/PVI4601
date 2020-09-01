@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:58:10 GMT
+ETag: "vendor/tinymce/themes/modern/theme.min-98730a64991f004de9a37595e4889bfa.js"
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=utf-8
+Content-Length: 43331
+Date: Fri, 28 Aug 2020 07:55:06 GMT
+

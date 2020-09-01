@@ -1,0 +1,11 @@
+[t122]
+FileName1=t122.json
+URL1=http://10.100.22.243:8081/followUpQueryFrontEnd/save
+Total=1
+RequestHeaderFile=t122_RequestHeader.txt
+RequestBodyFile=t122_RequestBody.txt
+ResponseHeaderFile=t122_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_122.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

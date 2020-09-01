@@ -1,0 +1,11 @@
+[t119]
+FileName1=t119_tinymce-9267f79bc730290c6e2c90f9353d3ccf.html
+URL1=http://10.100.22.243:8081/assets/vendor/tinymce/skins/lightgray/fonts/tinymce-9267f79bc730290c6e2c90f9353d3ccf.woff
+Total=1
+ContentType=application/x-font-woff
+SnapshotXmlFile=snapshot_119.xml
+RequestHeaderFile=t119_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t119_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
