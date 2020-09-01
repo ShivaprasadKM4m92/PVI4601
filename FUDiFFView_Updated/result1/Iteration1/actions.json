@@ -1,0 +1,269 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: external",
+                "infFile": "t1.inf",
+                "time": 1598978021391
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: authenticate",
+                "infFile": "t3.inf",
+                "time": 1598978028140
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: 10.100.22.243:8081",
+                "infFile": "t7.inf",
+                "time": 1598978037256
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: 1_2",
+                "infFile": "t39.inf",
+                "time": 1598978046424
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: getActionViewList",
+                "infFile": "t40.inf",
+                "time": 1598978047168
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: list",
+                "infFile": "t41.inf",
+                "time": 1598978047995
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: saveState_3",
+                "infFile": "t66.inf",
+                "time": 1598978052603
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: 1_5",
+                "infFile": "t67.inf",
+                "time": 1598978053495
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: saveState_4",
+                "infFile": "t68.inf",
+                "time": 1598978054500
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: {CorrelationParameter}",
+                "infFile": "t69.inf",
+                "time": 1598978056930
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: listAllowedUsersByCaseId",
+                "infFile": "t98.inf",
+                "time": 1598978066701
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: releaseEditLock",
+                "infFile": "t99.inf",
+                "time": 1598978067088
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: 244701",
+                "infFile": "t100.inf",
+                "time": 1598978069739
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: validateFuDiffView",
+                "infFile": "t128.inf",
+                "time": 1598978074775
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: listAllowedUsersByCaseId_2",
+                "infFile": "t129.inf",
+                "time": 1598978075328
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Submit Data: listAllowedUsersByCaseId_3",
+                "infFile": "t130.inf",
+                "time": 1598978075879
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Data: releaseEditLock_2",
+                "infFile": "t131.inf",
+                "time": 1598978076334
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: 244701_2",
+                "infFile": "t132.inf",
+                "time": 1598978085337
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: releaseEditLock_3",
+                "infFile": "t156.inf",
+                "time": 1598978088951
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: 244701_3",
+                "infFile": "t157.inf",
+                "time": 1598978091301
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Submit Data: releaseEditLock_4",
+                "infFile": "t185.inf",
+                "time": 1598978096665
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: {CorrelationParameter}_2",
+                "infFile": "t186.inf",
+                "time": 1598978101101
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Custom Request: saveState_7",
+                "infFile": "t237.inf",
+                "time": 1598978108627
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Submit Data: 1_8",
+                "infFile": "t238.inf",
+                "time": 1598978109520
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Submit Data: saveState_8",
+                "infFile": "t239.inf",
+                "time": 1598978111092
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Url: 10.100.22.34:8083",
+                "infFile": "t240.inf",
+                "time": 1598978112230
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: Logout",
+                "infFile": "t241.inf",
+                "time": 1598978114367
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "FUDiFFView_01_OpenApplication",
+                "rawStartTime": 1598978020380,
+                "rawEndTime": 1598978027174,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14987468719482423
+            },
+            {
+                "transactionName": "FUDiFFView_02_Login",
+                "rawStartTime": 1598978027215,
+                "rawEndTime": 1598978034174,
+                "thinkTime": 0.0,
+                "wastedTime": 0.31241321563720705
+            },
+            {
+                "transactionName": "FUDiFFView_03_NavigateToPVIntake",
+                "rawStartTime": 1598978034206,
+                "rawEndTime": 1598978047191,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5537621974945068
+            },
+            {
+                "transactionName": "FUDiFFView_04_CaseList",
+                "rawStartTime": 1598978047222,
+                "rawEndTime": 1598978052131,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1104128360748291
+            },
+            {
+                "transactionName": "FUDiFFView_SearchCase",
+                "rawStartTime": 1598978052169,
+                "rawEndTime": 1598978054509,
+                "thinkTime": 0.0,
+                "wastedTime": 0.042688846588134769
+            },
+            {
+                "transactionName": "FUDiFFView_05_EditCase",
+                "rawStartTime": 1598978054541,
+                "rawEndTime": 1598978066087,
+                "thinkTime": 0.0,
+                "wastedTime": 1.0557935237884522
+            },
+            {
+                "transactionName": "FUDiFFView_06_ChangeVersion",
+                "rawStartTime": 1598978066091,
+                "rawEndTime": 1598978074020,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2547895908355713
+            },
+            {
+                "transactionName": "FUDiFFView_07_FollowupDiffView",
+                "rawStartTime": 1598978074059,
+                "rawEndTime": 1598978088158,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14284563064575196
+            },
+            {
+                "transactionName": "FUDiFFView_07_Back",
+                "rawStartTime": 1598978088197,
+                "rawEndTime": 1598978094985,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17853450775146485
+            },
+            {
+                "transactionName": "FUDiFFView_08_Back",
+                "rawStartTime": 1598978095021,
+                "rawEndTime": 1598978104573,
+                "thinkTime": 0.0,
+                "wastedTime": 0.18716859817504884
+            },
+            {
+                "transactionName": "FUDiFFView_09_Back",
+                "rawStartTime": 1598978104612,
+                "rawEndTime": 1598978108070,
+                "thinkTime": 0.0,
+                "wastedTime": 0.053177833557128909
+            },
+            {
+                "transactionName": "FUDiFFView_ClearFilter",
+                "rawStartTime": 1598978108109,
+                "rawEndTime": 1598978111105,
+                "thinkTime": 0.0,
+                "wastedTime": 0.029015064239501954
+            },
+            {
+                "transactionName": "FUDiFFView_10_NavigatePVAdmin",
+                "rawStartTime": 1598978111144,
+                "rawEndTime": 1598978112648,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018650054931640626
+            },
+            {
+                "transactionName": "FUDiFFView_11_Logout",
+                "rawStartTime": 1598978112680,
+                "rawEndTime": 1598978114370,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014912605285644532
+            }
+        ]
+    }
+]

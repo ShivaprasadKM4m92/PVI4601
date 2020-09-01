@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Shiva Prasad KM\Documents\GitHub\PVI4601\FUDiFFView
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\shiva prasad km\documents\github\pvi4601\fudiffview\\logfile.log
+c:\users\shiva prasad km\documents\github\pvi4601\fudiffview\\combined_FUDiFFView.c
+c:\users\shiva prasad km\documents\github\pvi4601\fudiffview\\pre_cci.c
