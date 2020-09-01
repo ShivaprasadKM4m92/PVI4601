@@ -1,0 +1,11 @@
+[t64]
+FileName1=t64_redactionReason.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json?_=1598944598359
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_64.xml
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t64_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

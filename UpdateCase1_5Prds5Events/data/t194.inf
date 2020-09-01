@@ -1,0 +1,11 @@
+[t194]
+FileName1=t194_predefinedSearch.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/predefinedSearch.json?_=1598944766566
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_194.xml
+RequestHeaderFile=t194_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t194_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

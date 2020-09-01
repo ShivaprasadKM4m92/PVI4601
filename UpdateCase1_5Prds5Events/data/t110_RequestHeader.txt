@@ -1,0 +1,15 @@
+POST /user/loadState HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+Content-Length: 44
+Accept: */*
+X-CSRF-TOKEN: 32e5a0a7-efbd-4cc4-9572-2678c7e997e4
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://10.100.22.243:8081
+Referer: http://10.100.22.243:8081/intake/queue
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=a8eddc58-718e-45e8-bcd2-b7b46abff585; AuthType=Database
+

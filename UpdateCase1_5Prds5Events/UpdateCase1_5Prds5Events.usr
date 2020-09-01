@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=UpdateCase1_5Prds5Events.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="UpdateCase1_07_EditCase__*delimiter*__UpdateCase1_14_LogOut__*delimiter*__UpdateCase1_10_IntakeQueue__*delimiter*__UpdateCase1_04_IntakeQueueMyCases__*delimiter*__UpdateCase1_13_NavigateToPVAdmin__*delimiter*__UpdateCase1_08_UpdateNarrativesFieldAndSaveCase__*delimiter*__UpdateCase1_01_OpenApplication__*delimiter*__UpdateCase1_11_ClearFilter__*delimiter*__UpdateCase1_03_NavigateToPVIntake__*delimiter*__UpdateCase1_12_IntakeQueueMyCases__*delimiter*__UpdateCase1_02_Login__*delimiter*__UpdateCase1_05_IntakeQueueAllCases__*delimiter*__UpdateCase1_09_Back__*delimiter*__UpdateCase1_06_FilterIntakeCaseNum"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+UpdateCase1_07_EditCase=
+UpdateCase1_14_LogOut=
+UpdateCase1_10_IntakeQueue=
+UpdateCase1_04_IntakeQueueMyCases=
+UpdateCase1_13_NavigateToPVAdmin=
+UpdateCase1_08_UpdateNarrativesFieldAndSaveCase=
+UpdateCase1_01_OpenApplication=
+UpdateCase1_11_ClearFilter=
+UpdateCase1_03_NavigateToPVIntake=
+UpdateCase1_12_IntakeQueueMyCases=
+UpdateCase1_02_Login=
+UpdateCase1_05_IntakeQueueAllCases=
+UpdateCase1_09_Back=
+UpdateCase1_06_FilterIntakeCaseNum=

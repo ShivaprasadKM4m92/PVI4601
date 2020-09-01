@@ -1,0 +1,11 @@
+[t207]
+FileName1=t207.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html?_=1598944766570
+Total=1
+RequestHeaderFile=t207_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t207_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_207.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+X-GUploader-UploadID: ABg5-Uxc_JoCnCPqTLR9yjogVcmE94H-zA4HBm6zohEEUPYFv0mgE6LrYTwipB0qXBc-tiXF8K1odiZ_vZEfVwtIN_w1U4-NuA
+Date: Tue, 01 Sep 2020 07:11:34 GMT
+Expires: Tue, 01 Sep 2020 07:21:34 GMT
+Last-Modified: Mon, 17 Aug 2020 21:43:18 GMT
+ETag: "bfea30f5f542aaef282aad29bdf2ed5d"
+x-goog-generation: 1597700598147458
+x-goog-metageneration: 2
+x-goog-stored-content-encoding: gzip
+x-goog-stored-content-length: 26928
+Content-Type: text/javascript
+Content-Encoding: gzip
+x-goog-hash: crc32c=4wisHg==
+x-goog-hash: md5=v+ow9fVCqu8oKq0pvfLtXQ==
+x-goog-storage-class: MULTI_REGIONAL
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Length: 26928
+Access-Control-Allow-Origin: *
+Server: UploadServer
+Age: 233
+Cache-Control: public,max-age=600
+Alt-Svc: clear
+

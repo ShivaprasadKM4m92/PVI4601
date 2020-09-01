@@ -1,0 +1,11 @@
+[t187]
+FileName1=t187_dns-query.html
+URL1=https://dns.google/dns-query?dns=_k4BAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Total=1
+ContentType=application/dns-message
+SnapshotXmlFile=snapshot_187.xml
+RequestHeaderFile=t187_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t187_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

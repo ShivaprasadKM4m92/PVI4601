@@ -1,0 +1,11 @@
+[t140]
+FileName1=t140_fetchReferenceData.json
+URL1=http://10.100.22.243:8081/caseEntry/fetchReferenceData?_=1598944670141
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_140.xml
+RequestHeaderFile=t140_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t140_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

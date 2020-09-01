@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\UpdateCase2_5Prds5Events
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\updatecase2_5prds5events\\logfile.log
+c:\project\pvi\scripts\updatecase2_5prds5events\\combined_UpdateCase2_5Prds5Events.c
+c:\project\pvi\scripts\updatecase2_5prds5events\\pre_cci.c

@@ -1,0 +1,11 @@
+[t47]
+FileName1=t47_attachmentViewer-manifest-b347c0c37643c7b9e173f4b09adae617.html
+URL1=http://10.100.22.243:8081/assets/vendor/attachmentViewer-manifest-b347c0c37643c7b9e173f4b09adae617.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_47.xml
+RequestHeaderFile=t47_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t47_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

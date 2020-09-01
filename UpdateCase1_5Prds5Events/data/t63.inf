@@ -1,0 +1,11 @@
+[t63]
+FileName1=t63_1.json
+URL1=http://10.100.22.243:8081/case/rest/list_columns/1?_=1598944598356
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_63.xml
+RequestHeaderFile=t63_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t63_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

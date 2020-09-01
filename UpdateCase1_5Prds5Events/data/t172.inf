@@ -1,0 +1,11 @@
+[t172]
+FileName1=t172.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html?_=1598944737278
+Total=1
+RequestHeaderFile=t172_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t172_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_172.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

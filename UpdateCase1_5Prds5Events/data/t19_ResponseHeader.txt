@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: application/octet-stream
+Content-Length: 77948
+Date: Thu, 27 Aug 2020 20:01:04 GMT
+Expires: Fri, 04 Sep 2020 20:01:04 GMT
+Last-Modified: Tue, 22 Oct 2019 18:15:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Age: 386067
+Cache-Control: public, max-age=691200
+Alt-Svc: h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
