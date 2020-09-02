@@ -1,0 +1,11 @@
+[t183]
+FileName1=t183.html
+URL1=http://10.100.22.243:8081/caseEntry/fetchDocument?id=87469&viewerId=attachmentView&isDisplayView=true&redact=undefined
+Total=1
+RequestHeaderFile=t183_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t183_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_183.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

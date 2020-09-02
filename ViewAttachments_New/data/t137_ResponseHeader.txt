@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: http://10.100.22.243:8081
+Vary: Origin
+Access-Control-Expose-Headers: Content-Type,Content-Length,Accusoft-Data-Encrypted,Accusoft-Data-SK,Accusoft-Status-Message,Accusoft-Status-Number,Access-Control-Allow-Origin
+Pragma: public
+Cache-Control: max-age=86400
+Expires: Wed, 02 Sep 2020 16:43:06 GMT
+Content-Type: application/json
+Date: Tue, 01 Sep 2020 16:43:06 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+

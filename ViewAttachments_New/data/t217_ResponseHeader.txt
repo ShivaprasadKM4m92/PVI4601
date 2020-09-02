@@ -1,0 +1,9 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+X-Application-Context: application:production:8081
+Content-Type: text/html;charset=utf-8
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 01 Sep 2020 16:44:53 GMT
+

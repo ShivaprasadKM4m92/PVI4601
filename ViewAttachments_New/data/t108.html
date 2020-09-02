@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Attachment Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="/assets/vendor/favicon_1.ico">
+    <link rel="stylesheet" href="/assets/vendor/documentViewer/attachmentViewer-manifest-d21cd5ef9afc9d23b8e3146c7832bb09.css"/>
+    <link rel="stylesheet" href="/assets/application-13a1ddae267b7b6a32d12cfb1ac98e43.css"/>
+</head>
+<body class="widescreen fixed-left-void modal-open">
+<input type="hidden" name="appConfigUrl" value="http://10.100.22.243:8081/config/appConfig" id="appConfigUrl" />
+
+<div id="attachmentView" class="panel-collapse collapse in">
+    <div class="panel-body">
+        <div id="viewer" style="height: 100%;"><img  src="/../assets/vendor/spinner.gif"/>
+        </div>
+    </div>
+</div>
+<input type="hidden" name="attachmentId" value="87470" id="attachmentId" />
+<input type="hidden" name="attachmentViewerUrl" value="http://10.100.22.243:8081/caseEntry/fetchDocument" id="attachmentViewerUrl" />
+<script type="application/javascript">
+    var configUpdateDateTime = "09/01/2020 09:15:21";
+    var loginUser = "Load101";
+    var usernameToSavePreference = "Load101";
+    var corporateTimezone = "GMT";
+    var defaultTemplateId="2";
+    var referenceDataUpdateDateTime = "09/01/2020 09:19:22";
+</script>
+<script type="text/javascript" src="/assets/vendorUi/jquery/jquery-2.2.4-e72e6e97da5fd952079c33c415741fc6.js" ></script>
+<script type="text/javascript" src="/assets/application-a0469687a4859320633b35ed9c5374ee.js" ></script>
+<script type="text/javascript" src="/assets/vendor/attachmentViewer-manifest-b347c0c37643c7b9e173f4b09adae617.js" ></script>
+
+<meta name="_csrf" content="72b324d0-8b5a-4886-a08e-631a0dd57791"/>
+<meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+<meta name="_csrf_parameter" content="_csrf"/>
+
+<script type="text/javascript">
+    $(window).load(function() {
+        attachmentFlow.displayAttachmentBrowser('attachmentView', '87470', 'false', {'isFollowUpQuery': ''});
+    });
+</script>
+</body>
+</html>

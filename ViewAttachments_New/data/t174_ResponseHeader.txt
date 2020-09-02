@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: http://10.100.22.243:8081
+Vary: Origin
+Access-Control-Expose-Headers: Content-Type,Content-Length,Accusoft-Data-Encrypted,Accusoft-Data-SK,Accusoft-Status-Message,Accusoft-Status-Number,Access-Control-Allow-Origin
+x-server-chain: ip-10-100-22-240
+x-server-response-time: 3
+server: Mono-HTTPAPI/1.0
+content-type: image/svg+xml
+content-encoding: gzip
+cache-control: public, max-age=1209600
+accusoft-data-encrypted: false
+date: Tue, 01 Sep 2020 16:43:52 GMT
+connection: keep-alive
+transfer-encoding: chunked
+

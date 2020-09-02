@@ -1,0 +1,2709 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-csrf-token",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": true
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 52,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Sep-01-2020",
+    "RecordingDuration": 312391,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1598978421,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 3702998,
+    "TotalBytesSent": 446463,
+    "TotalRequests": 264,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "mxpnl.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.186.235.23",
+          "IncludeInScript": true,
+          "Name": "cdn.mxpnl.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 172,
+              "EventId": 40,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://cdn.mxpnl.com/libs/mixpanel-2.2.min.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mixpanel.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.190.25.25",
+          "IncludeInScript": true,
+          "Name": "api.mixpanel.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 453,
+              "EventId": 188,
+              "HttpStatus": 200,
+              "Size": 25,
+              "URL": "https://api.mixpanel.com/track/?verbose=1&ip=1&_=1598978437610"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 219,
+              "EventId": 69,
+              "HttpStatus": 200,
+              "Size": 1247,
+              "URL": "https://api.mixpanel.com/decide/?verbose=1&version=1&lib=web&token=94b5c311692e7c9d03cef9c9a7a32eaf&ip=1&_=1598978432628"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.167.163",
+          "IncludeInScript": true,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 344,
+              "EventId": 95,
+              "HttpStatus": 200,
+              "Size": 77948,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.166.163",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 438,
+              "EventId": 325,
+              "HttpStatus": 200,
+              "Size": 716,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=10:3552200830&cup2hreq=194758ed2affe4225196a2ceb69ca3e346b76c53335ae1b00ecb936a2aa61334"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 406,
+              "EventId": 223,
+              "HttpStatus": 200,
+              "Size": 433,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=10:2373114077&cup2hreq=e4f84ba0859b68b663f2e83d90a299cc026043edc010c20452df37180488a108"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.199.170",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 125,
+              "EventId": 538,
+              "HttpStatus": 200,
+              "Size": 3351,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChwKDGdvb2dsZWNocm9tZRIMODUuMC40MTgzLjgzGikIBRABGhsKDQgFEAYYASIDMDAxMAEQ95kJGgIYBzzsCDQiBCABIAIoARopCAEQARobCg0IARAGGAEiAzAwMTABEP7oBxoCGAf-P183IgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARD88QcaAhgHSfi5zSIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQ6oUIGgIYB2xuKP4iBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgHMbHJSCIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQyRsaAhgHcb5CLSIEIAEgAigEGicICRABGhkKDQgJEAYYASIDMDAxMAYQAxoCGAd8Zz-3IgQgASACKAYaKAgPEAEaGgoNCA8QBhgBIgMwMDEwARDBPRoCGAdkExdzIgQgASACKAEaJwgKEAgaGQoNCAoQCBgBIgMwMDEwARAGGgIYB7Zue30iBCABIAIoARonCAkQARoZCg0ICRAGGAEiAzAwMTABEB0aAhgHU4lufSIEIAEgAigBGigICBABGhoKDQgIEAYYASIDMDAxMAEQ3gkaAhgHw2vuoiIEIAEgAigBGigIDRABGhoKDQgNEAYYASIDMDAxMAEQr3oaAhgHJTGaCSIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQ-pgEGgIYB2ZRTdciBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABELYFGgIYB3XKCbgiBCABIAIoASICCAM=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.203.138",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 763,
+              "HttpStatus": 200,
+              "Size": 214,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRK9AglBsnT4to0MwBIJDT6BoJYSABoAEgkNu-D_oRIAGgASCQ2RYZVOEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ1KGMCSEgAaABIJDfiAz5gSABoAEgkNfMlrABIAGgASCQ3QBs7QEgAaABIJDZtke10SABoAEgkN8lKYGBIAGgASCQ1orEVoEgAaABIJDSphLwkSABoAEgkNVKVJGRIAGgASCQ0jGjrLEgAaABIJDWBs0i4SABoAEgkNya-oCxIAGgASCQ3yUpgYEgAaABIJDWisRWgSABoAEgkNKmEvCRIAGgASCQ1UpUkZEgAaABIJDSMaOssSABoAEgkNYGzSLhIAGgASCQ3Jr6gLEgAaABIJDZSQkvoSABoAEgkN8lKYGBIAGgASCQ3EeDMlEgAaABIJDZp9SlISABoA?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 218,
+              "EventId": 720,
+              "HttpStatus": 200,
+              "Size": 68,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCS9u1kXeZYXvEgkNkWGVThIAGgASCQ2BkPF8EgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ2RYZVOEgAaABIJDQbtu_8SABoAEgkNkWGVThIAGgA=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 188,
+              "EventId": 708,
+              "HttpStatus": 200,
+              "Size": 61,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJACa8ZyuUtyGQjEgkNkWGVThIAGgASCQ2BkPF8EgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ2RYZVOEgAaAA==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 637,
+              "HttpStatus": 200,
+              "Size": 243,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJLCcgnaEMnlbXfEgkNgGCmkxIAGgASCQ01hkhLEgAaABIJDXL-m-ISABoAEgkNlNTQzBIAGgASCQ27XMHGEgAaABIJDVBvcwQSABoAEr0CCUGydPi2jQzAEgkNPoGglhIAGgASCQ274P-hEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ2RYZVOEgAaABIJDUoYwJISABoAEgkN-IDPmBIAGgASCQ18yWsAEgAaABIJDdAGztASABoAEgkNm2R7XRIAGgASCQ3yUpgYEgAaABIJDWisRWgSABoAEgkNKmEvCRIAGgASCQ1UpUkZEgAaABIJDSMaOssSABoAEgkNYGzSLhIAGgASCQ3Jr6gLEgAaABIJDfJSmBgSABoAEgkNaKxFaBIAGgASCQ0qYS8JEgAaABIJDVSlSRkSABoAEgkNIxo6yxIAGgASCQ1gbNIuEgAaABIJDcmvqAsSABoAEgkNlJCS-hIAGgASCQ3yUpgYEgAaABIJDcR4MyUSABoAEgkNmn1KUhIAGgA=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 612,
+              "HttpStatus": 200,
+              "Size": 231,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRLFBAm0tPFAKmbvoxIJDT6BoJYSABoAEgkNu-D_oRIAGgASCQ2RYZVOEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ1KGMCSEgAaABIJDfiAz5gSABoAEgkNfMlrABIAGgASCQ3QBs7QEgAaABIJDZtke10SABoAEgkN8lKYGBIAGgASCQ1orEVoEgAaABIJDSphLwkSABoAEgkNVKVJGRIAGgASCQ0jGjrLEgAaABIJDWBs0i4SABoAEgkNya-oCxIAGgASCQ3yUpgYEgAaABIJDWisRWgSABoAEgkNKmEvCRIAGgASCQ1UpUkZEgAaABIJDSMaOssSABoAEgkNYGzSLhIAGgASCQ3Jr6gLEgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkN8lKYGBIAGgASCQ3EeDMlEgAaABIJDZp9SlISABoA?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 601,
+              "HttpStatus": 200,
+              "Size": 381,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCbbTSckCsq4oEgkNPQ6L4BIAGgASCQ2x4TvPEgAaABIJDRTyroQSABoAEgkNkcnz6RIAGgASCQ0iEwluEgAaABIJDQ6R6-ASABoAEgkNPSy82BIAGgAS2gEJn_48AeVLTwkSCQ1t2S9oEgAaABIJDb2Fgw8SABoAEgkNPoww1BIAGgASCQ29hYMPEgAaABIJDb2Fgw8SABoAEgkNqj7SyRIAGgASCQ1jZOYpEgAaABIJDRomdtISABoAEgkNXfAYABIAGgASCQ09LLzYEgAaABIJDRXavA4SABoAEgkNTSLKmBIAGgASCQ2Cw4RPEgAaABIJDTd7KU0SABoAEgkNlEEC9RIAGgASCQ03eylNEgAaABIJDcMMUPoSABoAEgkNHuP4PxIAGgASCQ2Cw4RPEgAaABJLCcgnaEMnlbXfEgkNgGCmkxIAGgASCQ01hkhLEgAaABIJDXL-m-ISABoAEgkNlNTQzBIAGgASCQ27XMHGEgAaABIJDVBvcwQSABoAErICCfhY0JgxlNYcEgkNPoGglhIAGgASCQ274P-hEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ2RYZVOEgAaABIJDUoYwJISABoAEgkN-IDPmBIAGgASCQ18yWsAEgAaABIJDdAGztASABoAEgkNm2R7XRIAGgASCQ3yUpgYEgAaABIJDWisRWgSABoAEgkNKmEvCRIAGgASCQ1UpUkZEgAaABIJDSMaOssSABoAEgkNYGzSLhIAGgASCQ3Jr6gLEgAaABIJDfJSmBgSABoAEgkNaKxFaBIAGgASCQ0qYS8JEgAaABIJDVSlSRkSABoAEgkNIxo6yxIAGgASCQ1gbNIuEgAaABIJDcmvqAsSABoAEgkN8lKYGBIAGgASCQ3EeDMlEgAaABIJDZp9SlISABoA?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 542,
+              "HttpStatus": 200,
+              "Size": 333,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKSBQl07o3AgxqoxRIJDT6BoJYSABoAEgkNu-D_oRIAGgASCQ2RYZVOEgAaABIJDZFhlU4SABoAEgkNkWGVThIAGgASCQ1KGMCSEgAaABIJDfiAz5gSABoAEgkNfMlrABIAGgASCQ3QBs7QEgAaABIJDfJSmBgSABoAEgkNaKxFaBIAGgASCQ0qYS8JEgAaABIJDVSlSRkSABoAEgkNIxo6yxIAGgASCQ1gbNIuEgAaABIJDcmvqAsSABoAEgkN8lKYGBIAGgASCQ1orEVoEgAaABIJDSphLwkSABoAEgkNVKVJGRIAGgASCQ0jGjrLEgAaABIJDWBs0i4SABoAEgkNya-oCxIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkN8lKYGBIAGgASCQ3yUpgYEgAaABIJDVuatMoSABoAEgkNaKxFaBIAGgASCQ3chMcSEgAaABIJDX6wCywSABoAEgkNKmEvCRIAGgASCQ2y3P3zEgAaABIJDbfDckYSABoAEgkNRyty8xIAGgASCQ3WQzVQEgAaABIJDcmvqAsSABoAEgkN8lKYGBIAGgASCQ1bmrTKEgAaABIJDWisRWgSABoAEgkN3ITHEhIAGgASCQ1-sAssEgAaABIJDSphLwkSABoAEgkNstz98xIAGgASCQ23w3JGEgAaABIJDUcrcvMSABoAEgkN1kM1UBIAGgASCQ3Jr6gLEgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ2UkJL6EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgASCQ3yUpgYEgAaABIJDcR4MyUSABoAEgkNmn1KUhIAGgA=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 187,
+              "EventId": 519,
+              "HttpStatus": 200,
+              "Size": 503,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCbbTSckCsq4oEgkNPQ6L4BIAGgASCQ2x4TvPEgAaABIJDRTyroQSABoAEgkNkcnz6RIAGgASCQ0iEwluEgAaABIJDQ6R6-ASABoAEgkNPSy82BIAGgAS2gEJn_48AeVLTwkSCQ1t2S9oEgAaABIJDb2Fgw8SABoAEgkNPoww1BIAGgASCQ29hYMPEgAaABIJDb2Fgw8SABoAEgkNqj7SyRIAGgASCQ1jZOYpEgAaABIJDRomdtISABoAEgkNXfAYABIAGgASCQ09LLzYEgAaABIJDRXavA4SABoAEgkNTSLKmBIAGgASCQ2Cw4RPEgAaABIJDTd7KU0SABoAEgkNlEEC9RIAGgASCQ03eylNEgAaABIJDcMMUPoSABoAEgkNHuP4PxIAGgASCQ2Cw4RPEgAaABJLCcgnaEMnlbXfEgkNgGCmkxIAGgASCQ01hkhLEgAaABIJDXL-m-ISABoAEgkNlNTQzBIAGgASCQ27XMHGEgAaABIJDVBvcwQSABoAEksJJXvUQR7xU38SCQ2AYKaTEgAaABIJDTWGSEsSABoAEgkNcv6b4hIAGgASCQ2U1NDMEgAaABIJDbtcwcYSABoAEgkNUG9zBBIAGgASpAQJJ7hgp2OO7xcSCQ0-gaCWEgAaABIJDbvg_6ESABoAEgkNkWGVThIAGgASCQ2RYZVOEgAaABIJDZFhlU4SABoAEgkNShjAkhIAGgASCQ34gM-YEgAaABIJDXzJawASABoAEgkN0AbO0BIAGgASCQ3yUpgYEgAaABIJDWisRWgSABoAEgkNKmEvCRIAGgASCQ1UpUkZEgAaABIJDSMaOssSABoAEgkNYGzSLhIAGgASCQ3Jr6gLEgAaABIJDfJSmBgSABoAEgkNaKxFaBIAGgASCQ0qYS8JEgAaABIJDVSlSRkSABoAEgkNIxo6yxIAGgASCQ1gbNIuEgAaABIJDcmvqAsSABoAEgkN8lKYGBIAGgASCQ3yUpgYEgAaABIJDVuatMoSABoAEgkNaKxFaBIAGgASCQ3chMcSEgAaABIJDX6wCywSABoAEgkNKmEvCRIAGgASCQ2y3P3zEgAaABIJDbfDckYSABoAEgkNRyty8xIAGgASCQ3WQzVQEgAaABIJDcmvqAsSABoAEgkN8lKYGBIAGgASCQ1bmrTKEgAaABIJDWisRWgSABoAEgkN3ITHEhIAGgASCQ1-sAssEgAaABIJDSphLwkSABoAEgkNstz98xIAGgASCQ23w3JGEgAaABIJDUcrcvMSABoAEgkN1kM1UBIAGgASCQ3Jr6gLEgAaABIJDfJSmBgSABoAEgkNxHgzJRIAGgASCQ2afUpSEgAaAA==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 469,
+              "HttpStatus": 200,
+              "Size": 263,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJWCbbTSckCsq4oEgkNPQ6L4BIAGgASCQ2x4TvPEgAaABIJDRTyroQSABoAEgkNkcnz6RIAGgASCQ0iEwluEgAaABIJDQ6R6-ASABoAEgkNPSy82BIAGgASuQEJ9-BCt1SSGugSCQ1t2S9oEgAaABIJDT6MMNQSABoAEgkNqj7SyRIAGgASCQ1jZOYpEgAaABIJDRomdtISABoAEgkNXfAYABIAGgASCQ09LLzYEgAaABIJDRXavA4SABoAEgkNTSLKmBIAGgASCQ2Cw4RPEgAaABIJDTd7KU0SABoAEgkNlEEC9RIAGgASCQ03eylNEgAaABIJDcMMUPoSABoAEgkNHuP4PxIAGgASCQ2Cw4RPEgAaABIUCa00MRuDwhfjEgkN22E2ABIAGgASSwnIJ2hDJ5W13xIJDYBgppMSABoAEgkNNYZISxIAGgASCQ1y_pviEgAaABIJDZTU0MwSABoAEgkNu1zBxhIAGgASCQ1Qb3MEEgAaABJLCSV71EEe8VN_EgkNgGCmkxIAGgASCQ01hkhLEgAaABIJDXL-m-ISABoAEgkNlNTQzBIAGgASCQ27XMHGEgAaABIJDVBvcwQSABoA?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 207,
+              "HttpStatus": 200,
+              "Size": 44,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCcreAU4NsE5aEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.197.67",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 50,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=85"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.196.77",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 219,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 193,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "10.100.22.34",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "10.100.22.34",
+          "IncludeInScript": true,
+          "Name": "10.100.22.34",
+          "Port": 8083,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 750,
+              "EventId": 1027,
+              "HttpStatus": 404,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/icons.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 734,
+              "EventId": 1025,
+              "HttpStatus": 404,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/assets/components.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 1023,
+              "HttpStatus": 404,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 515,
+              "EventId": 1017,
+              "HttpStatus": 200,
+              "Size": 1178,
+              "URL": "http://10.100.22.34:8083/external"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 1015,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/logoff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 390,
+              "EventId": 1013,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 1009,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/assets/i18n/en.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 1007,
+              "HttpStatus": 200,
+              "Size": 3270,
+              "URL": "http://10.100.22.34:8083/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 485,
+              "EventId": 331,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/auth?callBackUrl=http://10.100.22.243:8081/login/success"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 1953,
+              "EventId": 301,
+              "HttpStatus": 200,
+              "Size": 187196,
+              "URL": "http://10.100.22.34:8083/assets/materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.woff2?v=2.1.99"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 1328,
+              "EventId": 294,
+              "HttpStatus": 200,
+              "Size": 77171,
+              "URL": "http://10.100.22.34:8083/assets/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2?v=4.7.0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 672,
+              "EventId": 291,
+              "HttpStatus": 200,
+              "Size": 14071,
+              "URL": "http://10.100.22.34:8083/assets/OpenSans-Regular-cffb686d7d2f4682df8342bd4d276e09.woff2?v=1.1.0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 375,
+              "EventId": 289,
+              "HttpStatus": 200,
+              "Size": 725,
+              "URL": "http://10.100.22.34:8083/assets/i18n/en.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 375,
+              "EventId": 287,
+              "HttpStatus": 200,
+              "Size": 61,
+              "URL": "http://10.100.22.34:8083/preference/loadTheme"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 2313,
+              "EventId": 264,
+              "HttpStatus": 200,
+              "Size": 341982,
+              "URL": "http://10.100.22.34:8083/assets/application-73702747dcb4dc1831955be89087898f.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 3688,
+              "EventId": 262,
+              "HttpStatus": 200,
+              "Size": 97,
+              "URL": "http://10.100.22.34:8083/assets/UIConstants-e05f20031f3c986ffd86b552402112e0.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 344,
+              "EventId": 259,
+              "HttpStatus": 200,
+              "Size": 17818,
+              "URL": "http://10.100.22.34:8083/assets/PVAdmin-633ec218549f1fae0ce7d659fa347d7a.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 1375,
+              "EventId": 251,
+              "HttpStatus": 200,
+              "Size": 98139,
+              "URL": "http://10.100.22.34:8083/assets/application-3d87bac6ca7e570033e3b49e320180b2.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 1313,
+              "EventId": 247,
+              "HttpStatus": 200,
+              "Size": 30819,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/jquery/jquery-2.2.4-f3b292379cbb03d9a68dc04fb0ac6bf5.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 672,
+              "EventId": 245,
+              "HttpStatus": 200,
+              "Size": 538,
+              "URL": "http://10.100.22.34:8083/assets/common/change-theme-d6b58272d1305acd108c19d477017de0.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 562,
+              "EventId": 237,
+              "HttpStatus": 200,
+              "Size": 3270,
+              "URL": "http://10.100.22.34:8083/?token=d07cda51-3d20-475c-9f08-95df3585ee83"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 532,
+              "EventId": 235,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/login/authenticate"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 209,
+              "HttpStatus": 404,
+              "Size": 3008,
+              "URL": "http://10.100.22.34:8083/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 4235,
+              "EventId": 169,
+              "HttpStatus": 200,
+              "Size": 546257,
+              "URL": "http://10.100.22.34:8083/assets/background-4c8c4fd7df1b6436735eac4cfed91698.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 3984,
+              "EventId": 160,
+              "HttpStatus": 200,
+              "Size": 20146,
+              "URL": "http://10.100.22.34:8083/assets/bootstrap-c5ae98cdc147f655f96564c4340000c4.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 3641,
+              "EventId": 158,
+              "HttpStatus": 404,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/assets/components.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 1547,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 67651,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/jquery/jquery-fdb24ba38c94d04e948de967076c64aa.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 328,
+              "EventId": 87,
+              "HttpStatus": 200,
+              "Size": 1708,
+              "URL": "http://10.100.22.34:8083/assets/pv-btn-bg-fe78a517c666e4e5b987b878badafa68.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 407,
+              "EventId": 82,
+              "HttpStatus": 200,
+              "Size": 4655,
+              "URL": "http://10.100.22.34:8083/assets/pvi_logo-3b00491e90ab9196bd3d5429e905d856.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 359,
+              "EventId": 76,
+              "HttpStatus": 200,
+              "Size": 382,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/notifications/notify-metro-3463085bfd0a7cac9f983d075b271bca.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 391,
+              "EventId": 74,
+              "HttpStatus": 200,
+              "Size": 3420,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/notifyjs/dist/notify.min-a1134657dba6e98914066f2530604e68.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 359,
+              "EventId": 72,
+              "HttpStatus": 200,
+              "Size": 1439,
+              "URL": "http://10.100.22.34:8083/assets/common/jquery.core-2521768e514d3a431ddca828a1bebd3c.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 375,
+              "EventId": 67,
+              "HttpStatus": 200,
+              "Size": 9833,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/bootstrap/bootstrap.min-79b5346433d3bdf736aab2379a008083.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 687,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 821,
+              "URL": "http://10.100.22.34:8083/assets/login-17e4cb116ee46711bb739b7018d00771.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 625,
+              "EventId": 63,
+              "HttpStatus": 404,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/icons.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 54,
+              "HttpStatus": 404,
+              "Size": 0,
+              "URL": "http://10.100.22.34:8083/assets/vendorUi/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 610,
+              "EventId": 24,
+              "HttpStatus": 200,
+              "Size": 1178,
+              "URL": "http://10.100.22.34:8083/external"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "10.100.22.243",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "10.100.22.243",
+          "IncludeInScript": true,
+          "Name": "10.100.22.243",
+          "Port": 8081,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 688,
+              "EventId": 1002,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1375,
+              "EventId": 999,
+              "HttpStatus": 200,
+              "Size": 15374,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 672,
+              "EventId": 997,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1875,
+              "EventId": 991,
+              "HttpStatus": 200,
+              "Size": 59184,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 656,
+              "EventId": 989,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1218,
+              "EventId": 924,
+              "HttpStatus": 200,
+              "Size": 625,
+              "URL": "http://10.100.22.243:8081/caseEntry/fetchDocument"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 406,
+              "EventId": 922,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 920,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/viewerTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 422,
+              "EventId": 918,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 916,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 914,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 912,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 910,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 908,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 343,
+              "EventId": 906,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/hyperlinkMenuTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 904,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/esignOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 902,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 688,
+              "EventId": 900,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/commentTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 500,
+              "EventId": 898,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/contextMenuTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 656,
+              "EventId": 896,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 641,
+              "EventId": 894,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/predefinedSearch.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 360,
+              "EventId": 892,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 375,
+              "EventId": 890,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/en-US.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 888,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/spinner.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 878,
+              "HttpStatus": 200,
+              "Size": 1021,
+              "URL": "http://10.100.22.243:8081/caseEntry/fetchDocument?id=87469&viewerId=attachmentView&isDisplayView=true&redact=undefined"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 734,
+              "EventId": 876,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1266,
+              "EventId": 874,
+              "HttpStatus": 200,
+              "Size": 1501,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 656,
+              "EventId": 872,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 3734,
+              "EventId": 813,
+              "HttpStatus": 200,
+              "Size": 627,
+              "URL": "http://10.100.22.243:8081/caseEntry/fetchDocument"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 891,
+              "EventId": 811,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 875,
+              "EventId": 809,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/viewerTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 891,
+              "EventId": 807,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 703,
+              "EventId": 805,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 687,
+              "EventId": 803,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 718,
+              "EventId": 801,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/hyperlinkMenuTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 500,
+              "EventId": 799,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 672,
+              "EventId": 797,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 641,
+              "EventId": 795,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 793,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/esignOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 500,
+              "EventId": 791,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/contextMenuTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 672,
+              "EventId": 789,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/commentTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 656,
+              "EventId": 787,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 785,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 641,
+              "EventId": 783,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/predefinedSearch.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 781,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 779,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/en-US.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 777,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/assets/vendor/spinner.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 437,
+              "EventId": 767,
+              "HttpStatus": 200,
+              "Size": 1021,
+              "URL": "http://10.100.22.243:8081/caseEntry/fetchDocument?id=87467&viewerId=attachmentView&isDisplayView=true&redact=undefined"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 719,
+              "EventId": 765,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1109,
+              "EventId": 761,
+              "HttpStatus": 200,
+              "Size": 1500,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 672,
+              "EventId": 759,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 968,
+              "EventId": 695,
+              "HttpStatus": 200,
+              "Size": 61414,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewer/icons@2x-f749dbc78fd612cc805c440038527f86.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 969,
+              "EventId": 693,
+              "HttpStatus": 200,
+              "Size": 43432,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewer/icons.white@2x-962b171ab6d7bbd1be1c3e37b2a4a6b1.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 6782,
+              "EventId": 691,
+              "HttpStatus": 200,
+              "Size": 622,
+              "URL": "http://10.100.22.243:8081/caseEntry/fetchDocument"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 3734,
+              "EventId": 689,
+              "HttpStatus": 200,
+              "Size": 427,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/commentTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 3718,
+              "EventId": 687,
+              "HttpStatus": 200,
+              "Size": 2860,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/contextMenuTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 685,
+              "HttpStatus": 200,
+              "Size": 4811,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/viewerTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 683,
+              "HttpStatus": 200,
+              "Size": 2933,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 681,
+              "HttpStatus": 200,
+              "Size": 209,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 679,
+              "HttpStatus": 200,
+              "Size": 246,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 677,
+              "HttpStatus": 200,
+              "Size": 1176,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 675,
+              "HttpStatus": 200,
+              "Size": 841,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 205,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 671,
+              "HttpStatus": 200,
+              "Size": 595,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 669,
+              "HttpStatus": 200,
+              "Size": 405,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/hyperlinkMenuTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 667,
+              "HttpStatus": 200,
+              "Size": 846,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/esignOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 665,
+              "HttpStatus": 200,
+              "Size": 318,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 663,
+              "HttpStatus": 200,
+              "Size": 193,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 656,
+              "EventId": 661,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 375,
+              "EventId": 659,
+              "HttpStatus": 200,
+              "Size": 5048,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/en-US.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 360,
+              "EventId": 657,
+              "HttpStatus": 200,
+              "Size": 501,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/predefinedSearch.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 703,
+              "EventId": 645,
+              "HttpStatus": 200,
+              "Size": 22650,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewer/attachmentViewer-manifest-d21cd5ef9afc9d23b8e3146c7832bb09.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 328,
+              "EventId": 643,
+              "HttpStatus": 200,
+              "Size": 2037,
+              "URL": "http://10.100.22.243:8081/assets/vendor/spinner.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 641,
+              "HttpStatus": 200,
+              "Size": 1021,
+              "URL": "http://10.100.22.243:8081/caseEntry/fetchDocument?id=87470&viewerId=attachmentView&isDisplayView=true&redact=undefined"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 657,
+              "EventId": 639,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1063,
+              "EventId": 635,
+              "HttpStatus": 200,
+              "Size": 1495,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 656,
+              "EventId": 633,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 688,
+              "EventId": 620,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1688,
+              "EventId": 614,
+              "HttpStatus": 200,
+              "Size": 59182,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 391,
+              "EventId": 610,
+              "HttpStatus": 200,
+              "Size": 1212,
+              "URL": "http://10.100.22.243:8081/case/getActionViewList?pageId=2&sourceDbId=1&_=1598978515289"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1281,
+              "EventId": 607,
+              "HttpStatus": 200,
+              "Size": 15374,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 828,
+              "EventId": 605,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 891,
+              "EventId": 603,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/user/saveState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1234,
+              "EventId": 599,
+              "HttpStatus": 200,
+              "Size": 613,
+              "URL": "http://10.100.22.243:8081/user/loadState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 375,
+              "EventId": 597,
+              "HttpStatus": 200,
+              "Size": 57,
+              "URL": "http://10.100.22.243:8081/config/loadServerTime?_=1598978515288"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 641,
+              "EventId": 595,
+              "HttpStatus": 200,
+              "Size": 1807,
+              "URL": "http://10.100.22.243:8081/case/rest/list_columns/2?_=1598978515287"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1047,
+              "EventId": 593,
+              "HttpStatus": 200,
+              "Size": 405,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/hyperlinkMenuTemplate.html?_=1598978515278"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 590,
+              "HttpStatus": 200,
+              "Size": 4811,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/viewerTemplate.html?_=1598978515286"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 588,
+              "HttpStatus": 200,
+              "Size": 246,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html?_=1598978515284"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 586,
+              "HttpStatus": 200,
+              "Size": 209,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html?_=1598978515285"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 750,
+              "EventId": 584,
+              "HttpStatus": 200,
+              "Size": 205,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html?_=1598978515280"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 437,
+              "EventId": 582,
+              "HttpStatus": 200,
+              "Size": 2933,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html?_=1598978515283"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 580,
+              "HttpStatus": 200,
+              "Size": 1176,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html?_=1598978515282"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 578,
+              "HttpStatus": 200,
+              "Size": 595,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html?_=1598978515279"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 576,
+              "HttpStatus": 200,
+              "Size": 841,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html?_=1598978515281"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 574,
+              "HttpStatus": 200,
+              "Size": 846,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/esignOverlayTemplate.html?_=1598978515277"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 438,
+              "EventId": 571,
+              "HttpStatus": 200,
+              "Size": 5048,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/en-US.json?_=1598978515270"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 438,
+              "EventId": 569,
+              "HttpStatus": 200,
+              "Size": 2860,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/contextMenuTemplate.html?_=1598978515274"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 438,
+              "EventId": 567,
+              "HttpStatus": 200,
+              "Size": 427,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/commentTemplate.html?_=1598978515273"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 407,
+              "EventId": 565,
+              "HttpStatus": 200,
+              "Size": 501,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/predefinedSearch.json?_=1598978515271"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 563,
+              "HttpStatus": 200,
+              "Size": 318,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html?_=1598978515276"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 391,
+              "EventId": 561,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json?_=1598978515272"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 559,
+              "HttpStatus": 200,
+              "Size": 193,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html?_=1598978515275"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 1718,
+              "EventId": 553,
+              "HttpStatus": 200,
+              "Size": 57817,
+              "URL": "http://10.100.22.243:8081/assets/app/list/list-manifest-185621e31c59b25205353c6a318d5899.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 406,
+              "EventId": 551,
+              "HttpStatus": 200,
+              "Size": 1603,
+              "URL": "http://10.100.22.243:8081/assets/excel-a40ce78cdd86cac8004163bf736802da.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 343,
+              "EventId": 548,
+              "HttpStatus": 200,
+              "Size": 3961,
+              "URL": "http://10.100.22.243:8081/assets/list/list-24eb5f840484c7ed5a76f95c9fe17ba2.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 828,
+              "EventId": 545,
+              "HttpStatus": 200,
+              "Size": 17275,
+              "URL": "http://10.100.22.243:8081/intake/queue"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 359,
+              "EventId": 536,
+              "HttpStatus": 200,
+              "Size": 1212,
+              "URL": "http://10.100.22.243:8081/case/getActionViewList?pageId=1&sourceDbId=1&_=1598978491661"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 875,
+              "EventId": 532,
+              "HttpStatus": 200,
+              "Size": 1016,
+              "URL": "http://10.100.22.243:8081/assets/common/hbs-templates/viewAction.hbs"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 147,
+              "URL": "http://10.100.22.243:8081/assets/common/hbs-templates/casePrioritySelect.hbs"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1484,
+              "EventId": 523,
+              "HttpStatus": 200,
+              "Size": 13557,
+              "URL": "http://10.100.22.243:8081/case/rest/list/2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1875,
+              "EventId": 521,
+              "HttpStatus": 200,
+              "Size": 2006,
+              "URL": "http://10.100.22.243:8081/case/rest/list/1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 515,
+              "EventId": 517,
+              "HttpStatus": 200,
+              "Size": 613,
+              "URL": "http://10.100.22.243:8081/user/loadState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 500,
+              "EventId": 515,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/dashboard/updateWidget"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 797,
+              "EventId": 513,
+              "HttpStatus": 200,
+              "Size": 4811,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/viewerTemplate.html?_=1598978491660"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 391,
+              "EventId": 511,
+              "HttpStatus": 200,
+              "Size": 41,
+              "URL": "http://10.100.22.243:8081/dashboard/updateWidget"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 407,
+              "EventId": 509,
+              "HttpStatus": 200,
+              "Size": 209,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html?_=1598978491659"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 507,
+              "HttpStatus": 200,
+              "Size": 246,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html?_=1598978491658"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 391,
+              "EventId": 505,
+              "HttpStatus": 200,
+              "Size": 1176,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html?_=1598978491656"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 503,
+              "HttpStatus": 200,
+              "Size": 2933,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html?_=1598978491657"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 531,
+              "EventId": 501,
+              "HttpStatus": 200,
+              "Size": 639,
+              "URL": "http://10.100.22.243:8081/user/loadState"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 375,
+              "EventId": 499,
+              "HttpStatus": 200,
+              "Size": 841,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html?_=1598978491655"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 497,
+              "HttpStatus": 200,
+              "Size": 205,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html?_=1598978491654"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 469,
+              "EventId": 495,
+              "HttpStatus": 200,
+              "Size": 595,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html?_=1598978491653"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 493,
+              "HttpStatus": 200,
+              "Size": 405,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/hyperlinkMenuTemplate.html?_=1598978491652"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 491,
+              "HttpStatus": 200,
+              "Size": 318,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html?_=1598978491650"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 489,
+              "HttpStatus": 200,
+              "Size": 846,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/esignOverlayTemplate.html?_=1598978491651"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 406,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 2860,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/contextMenuTemplate.html?_=1598978491648"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 485,
+              "HttpStatus": 200,
+              "Size": 193,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html?_=1598978491649"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1234,
+              "EventId": 481,
+              "HttpStatus": 200,
+              "Size": 1807,
+              "URL": "http://10.100.22.243:8081/case/rest/list_columns/2?_=1598978491642"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1187,
+              "EventId": 479,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json?_=1598978491646"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1203,
+              "EventId": 477,
+              "HttpStatus": 200,
+              "Size": 5048,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/en-US.json?_=1598978491644"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1203,
+              "EventId": 475,
+              "HttpStatus": 200,
+              "Size": 1801,
+              "URL": "http://10.100.22.243:8081/case/rest/list_columns/1?_=1598978491643"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 812,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 427,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/commentTemplate.html?_=1598978491647"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1016,
+              "EventId": 471,
+              "HttpStatus": 200,
+              "Size": 501,
+              "URL": "http://10.100.22.243:8081/assets/vendor/documentViewerJson/predefinedSearch.json?_=1598978491645"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 891,
+              "EventId": 466,
+              "HttpStatus": 200,
+              "Size": 18056,
+              "URL": "http://10.100.22.243:8081/assets/glyphicons-halflings-regular-448c34a56d699c29117adc64c43affeb.woff2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 578,
+              "EventId": 462,
+              "HttpStatus": 200,
+              "Size": 143,
+              "URL": "http://10.100.22.243:8081/dashboard/personalStats?_=1598978491641"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 610,
+              "EventId": 460,
+              "HttpStatus": 200,
+              "Size": 1550,
+              "URL": "http://10.100.22.243:8081/assets/pv-btn-bg3-1e05f4eeb9f3efb885b2c05a0bea4ab4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 563,
+              "EventId": 458,
+              "HttpStatus": 200,
+              "Size": 1545,
+              "URL": "http://10.100.22.243:8081/assets/pv-btn-bg2-6efc4f00037bcaba0fee1e7b7d70f0be.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 360,
+              "EventId": 456,
+              "HttpStatus": 200,
+              "Size": 57,
+              "URL": "http://10.100.22.243:8081/config/loadServerTime?_=1598978491640"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 391,
+              "EventId": 454,
+              "HttpStatus": 200,
+              "Size": 374,
+              "URL": "http://10.100.22.243:8081/task/referenceData?_=1598978491639"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 375,
+              "EventId": 452,
+              "HttpStatus": 200,
+              "Size": 1611,
+              "URL": "http://10.100.22.243:8081/user/loadAllState?pageType=&section="
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 390,
+              "EventId": 450,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://10.100.22.243:8081/config/appConfig"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 5125,
+              "EventId": 428,
+              "HttpStatus": 200,
+              "Size": 334665,
+              "URL": "http://10.100.22.243:8081/assets/application-a0469687a4859320633b35ed9c5374ee.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 3844,
+              "EventId": 414,
+              "HttpStatus": 200,
+              "Size": 187196,
+              "URL": "http://10.100.22.243:8081/assets/materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.woff2?v=2.1.99"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 2266,
+              "EventId": 407,
+              "HttpStatus": 200,
+              "Size": 77171,
+              "URL": "http://10.100.22.243:8081/assets/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2?v=4.7.0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 4156,
+              "EventId": 390,
+              "HttpStatus": 200,
+              "Size": 244374,
+              "URL": "http://10.100.22.243:8081/assets/vendor/attachmentViewer-manifest-b347c0c37643c7b9e173f4b09adae617.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 2515,
+              "EventId": 382,
+              "HttpStatus": 200,
+              "Size": 99136,
+              "URL": "http://10.100.22.243:8081/assets/app/dashboard/dashboard-manifest-10f1ed9d89cf396671bd4e3042b74253.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 344,
+              "EventId": 380,
+              "HttpStatus": 200,
+              "Size": 1708,
+              "URL": "http://10.100.22.243:8081/assets/pv-btn-bg-fe78a517c666e4e5b987b878badafa68.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 359,
+              "EventId": 378,
+              "HttpStatus": 200,
+              "Size": 1606,
+              "URL": "http://10.100.22.243:8081/assets/section-hd-bg-8eaf77fc4a1a47c48ca4b2e3d5a96340.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 672,
+              "EventId": 375,
+              "HttpStatus": 200,
+              "Size": 14071,
+              "URL": "http://10.100.22.243:8081/assets/OpenSans-Regular-cffb686d7d2f4682df8342bd4d276e09.woff2?v=1.1.0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 371,
+              "HttpStatus": 200,
+              "Size": 61,
+              "URL": "http://10.100.22.243:8081/preference/loadTheme"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 328,
+              "EventId": 369,
+              "HttpStatus": 200,
+              "Size": 3200,
+              "URL": "http://10.100.22.243:8081/assets/PVIntake-241ae46808f3515f2be1c0c88ee0773b.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 3703,
+              "EventId": 367,
+              "HttpStatus": 200,
+              "Size": 97,
+              "URL": "http://10.100.22.243:8081/assets/UIConstants-ee3587ab40d47b8bed173814ecf5a0be.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 3281,
+              "EventId": 365,
+              "HttpStatus": 200,
+              "Size": 538,
+              "URL": "http://10.100.22.243:8081/assets/common/change-theme-6ebd5f05979bc64dfe2d6f10b3e3b3db.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 2968,
+              "EventId": 357,
+              "HttpStatus": 200,
+              "Size": 98624,
+              "URL": "http://10.100.22.243:8081/assets/application-13a1ddae267b7b6a32d12cfb1ac98e43.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 1375,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 30819,
+              "URL": "http://10.100.22.243:8081/assets/vendorUi/jquery/jquery-2.2.4-e72e6e97da5fd952079c33c415741fc6.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 390,
+              "EventId": 349,
+              "HttpStatus": 200,
+              "Size": 7055,
+              "URL": "http://10.100.22.243:8081/assets/app/dashboard/dashboard-manifest-b8c4a5998dad68d4595e4d0aa8d50016.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 844,
+              "EventId": 337,
+              "HttpStatus": 200,
+              "Size": 24022,
+              "URL": "http://10.100.22.243:8081/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 1000,
+              "EventId": 335,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/login/success?token=d07cda51-3d20-475c-9f08-95df3585ee83"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 797,
+              "EventId": 329,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/login/index"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 938,
+              "EventId": 323,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://10.100.22.243:8081/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "10.100.22.240",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "10.100.22.240",
+          "IncludeInScript": true,
+          "Name": "10.100.22.240",
+          "Port": 3000,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1328,
+              "EventId": 974,
+              "HttpStatus": 200,
+              "Size": 29493,
+              "URL": "http://10.100.22.240:3000/Document/q/3-3/Text?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1391,
+              "EventId": 970,
+              "HttpStatus": 200,
+              "Size": 28282,
+              "URL": "http://10.100.22.240:3000/Document/q/2-2/Text?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 532,
+              "EventId": 966,
+              "HttpStatus": 200,
+              "Size": 8175,
+              "URL": "http://10.100.22.240:3000/Document/q/1-1/Text?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 500,
+              "EventId": 961,
+              "HttpStatus": 200,
+              "Size": 48197,
+              "URL": "http://10.100.22.240:3000/Page/q/3?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 781,
+              "EventId": 955,
+              "HttpStatus": 200,
+              "Size": 53425,
+              "URL": "http://10.100.22.240:3000/Page/q/2?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 890,
+              "EventId": 951,
+              "HttpStatus": 200,
+              "Size": 34932,
+              "URL": "http://10.100.22.240:3000/Page/q/1?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 719,
+              "EventId": 949,
+              "HttpStatus": 200,
+              "Size": 189,
+              "URL": "http://10.100.22.240:3000/ImageStampList"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 547,
+              "EventId": 947,
+              "HttpStatus": 200,
+              "Size": 135,
+              "URL": "http://10.100.22.240:3000/Document/q/0-0/Text?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 437,
+              "EventId": 945,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "http://10.100.22.240:3000/Document/q/Attributes?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&DesiredPageCountConfidence=50"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 390,
+              "EventId": 943,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Document/q/Attributes?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&DesiredPageCountConfidence=50"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 515,
+              "EventId": 940,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 406,
+              "EventId": 938,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 859,
+              "EventId": 934,
+              "HttpStatus": 200,
+              "Size": 222,
+              "URL": "http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=9054C549-3FDD8E70-37E1A035-77955626&p=24"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 1922,
+              "EventId": 931,
+              "HttpStatus": 200,
+              "Size": 46973,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 578,
+              "EventId": 929,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=9054C549-3FDD8E70-37E1A035-77955626&p=24"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1015,
+              "EventId": 858,
+              "HttpStatus": 200,
+              "Size": 29902,
+              "URL": "http://10.100.22.240:3000/Document/q/3-3/Text?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1000,
+              "EventId": 854,
+              "HttpStatus": 200,
+              "Size": 28077,
+              "URL": "http://10.100.22.240:3000/Document/q/2-2/Text?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 1344,
+              "EventId": 849,
+              "HttpStatus": 200,
+              "Size": 42639,
+              "URL": "http://10.100.22.240:3000/Page/q/3?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 2000,
+              "EventId": 843,
+              "HttpStatus": 200,
+              "Size": 68540,
+              "URL": "http://10.100.22.240:3000/Page/q/2?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 531,
+              "EventId": 840,
+              "HttpStatus": 200,
+              "Size": 8069,
+              "URL": "http://10.100.22.240:3000/Document/q/1-1/Text?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 1328,
+              "EventId": 836,
+              "HttpStatus": 200,
+              "Size": 32528,
+              "URL": "http://10.100.22.240:3000/Page/q/1?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 735,
+              "EventId": 834,
+              "HttpStatus": 200,
+              "Size": 189,
+              "URL": "http://10.100.22.240:3000/ImageStampList"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 375,
+              "EventId": 832,
+              "HttpStatus": 200,
+              "Size": 359,
+              "URL": "http://10.100.22.240:3000/Document/q/0-0/Text?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 422,
+              "EventId": 830,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "http://10.100.22.240:3000/Document/q/Attributes?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&DesiredPageCountConfidence=50"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 329,
+              "EventId": 828,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Document/q/Attributes?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&DesiredPageCountConfidence=50"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 344,
+              "EventId": 826,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 824,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 360,
+              "EventId": 822,
+              "HttpStatus": 200,
+              "Size": 222,
+              "URL": "http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=F6FA5216-099F781F-554E1764-8E26C734&p=24"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 1000,
+              "EventId": 817,
+              "HttpStatus": 200,
+              "Size": 50495,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 815,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=F6FA5216-099F781F-554E1764-8E26C734&p=24"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1016,
+              "EventId": 746,
+              "HttpStatus": 200,
+              "Size": 12308,
+              "URL": "http://10.100.22.240:3000/Document/q/3-3/Text?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1093,
+              "EventId": 743,
+              "HttpStatus": 200,
+              "Size": 12308,
+              "URL": "http://10.100.22.240:3000/Document/q/2-2/Text?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1609,
+              "EventId": 740,
+              "HttpStatus": 200,
+              "Size": 12308,
+              "URL": "http://10.100.22.240:3000/Document/q/1-1/Text?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 735,
+              "EventId": 738,
+              "HttpStatus": 200,
+              "Size": 1776,
+              "URL": "http://10.100.22.240:3000/Page/q/3?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 703,
+              "EventId": 736,
+              "HttpStatus": 200,
+              "Size": 1768,
+              "URL": "http://10.100.22.240:3000/Page/q/2?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 734,
+              "HttpStatus": 200,
+              "Size": 2458,
+              "URL": "http://10.100.22.240:3000/ImageStamp/UENDLUNoZWNrbWFyay1JbWFnZS1TdGFtcC5wbmc=/q?format=Base64"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 734,
+              "EventId": 732,
+              "HttpStatus": 200,
+              "Size": 189,
+              "URL": "http://10.100.22.240:3000/ImageStampList"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 922,
+              "EventId": 730,
+              "HttpStatus": 200,
+              "Size": 12307,
+              "URL": "http://10.100.22.240:3000/Document/q/0-0/Text?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 375,
+              "EventId": 728,
+              "HttpStatus": 200,
+              "Size": 1781,
+              "URL": "http://10.100.22.240:3000/Page/q/1?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 726,
+              "HttpStatus": 200,
+              "Size": 44,
+              "URL": "http://10.100.22.240:3000/Document/q/Attributes?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&DesiredPageCountConfidence=50"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 500,
+              "EventId": 724,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 722,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Document/q/Attributes?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&DesiredPageCountConfidence=50"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 718,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 360,
+              "EventId": 716,
+              "HttpStatus": 200,
+              "Size": 222,
+              "URL": "http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=6CDF00F1-591334C8-8DD444DB-8FC98D5F&p=24"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 687,
+              "EventId": 712,
+              "HttpStatus": 200,
+              "Size": 1767,
+              "URL": "http://10.100.22.240:3000/Page/q/0?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&Scale=1&ContentType=svga"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 625,
+              "EventId": 710,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=6CDF00F1-591334C8-8DD444DB-8FC98D5F&p=24"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 67
+}

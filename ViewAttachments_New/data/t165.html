@@ -1,0 +1,42 @@
+<noscript>
+    Javascript needs to be enabled to view the document in viewer.
+</noscript>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var options = {
+            documentID: encodeURIComponent('1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw'),  //arg
+            imageHandlerUrl: 'http://10.100.22.240:3000',
+            documentDisplayName: 'PerfTest_1MB.pdf',    //arg
+            uiElements: {
+                download: true,
+                copyPaste: true,
+                fullScreen: false,
+                esign: false,
+                redact: true,
+                searchTab: true,
+                esignTab: false,
+                toolTips: true,
+                firstLastPage: false,
+                viewTab: true,
+                annotateTab: true,
+                redactTab: true,
+                imageStampRedaction: false,
+                annotateSave: true,
+                annotateLoad: true,
+                commentsPanel: false,
+                contextMenu: true,
+                fullScreenToggle: false,
+                eSign: false,
+                hideAll: true,
+                printing: true,
+                fullScreenOnInit: false
+            },
+            discardOutOfViewText: true
+        };
+        docViewer.options = _.extend(docViewer.options, options);
+        docViewer.attachmentList[docViewer.attachmentList.length] = $('div#attachmentView #viewer').pccViewer(docViewer.options);
+    });
+</script>
+

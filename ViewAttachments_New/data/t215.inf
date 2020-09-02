@@ -1,0 +1,11 @@
+[t215]
+FileName1=t215_Text.json
+URL1=http://10.100.22.240:3000/Document/q/2-2/Text?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_215.xml
+RequestHeaderFile=t215_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t215_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

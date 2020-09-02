@@ -1,0 +1,11 @@
+[t206]
+FileName1=t206.html
+URL1=http://10.100.22.240:3000/Page/q/0?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&Scale=1&ContentType=svga
+Total=1
+RequestHeaderFile=t206_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t206_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_206.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t131]
+FileName1=t131.html
+URL1=http://10.100.22.240:3000/Document/q/Attributes?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ&DesiredPageCountConfidence=50
+Total=1
+RequestHeaderFile=t131_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t131_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_131.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

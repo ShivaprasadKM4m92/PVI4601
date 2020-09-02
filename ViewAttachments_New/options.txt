@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\ViewAttachments
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\viewattachments\\logfile.log
+c:\project\pvi\scripts\viewattachments\\combined_ViewAttachments.c
+c:\project\pvi\scripts\viewattachments\\pre_cci.c

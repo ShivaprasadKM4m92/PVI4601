@@ -1,0 +1,9 @@
+[t129]
+SnapshotXmlFile=snapshot_129.xml
+FileName1=t129.txt
+URL1=http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=6CDF00F1-591334C8-8DD444DB-8FC98D5F&p=24
+Total=1
+RequestHeaderFile=t129_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t129_ResponseHeader.txt
+ContentType=text/plain

@@ -1,0 +1,9 @@
+[t194]
+FileName1=t194.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/overwriteOverlayTemplate.html
+Total=1
+RequestHeaderFile=t194_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t194_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_194.xml

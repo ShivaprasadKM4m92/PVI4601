@@ -1,0 +1,9 @@
+[t190]
+FileName1=t190.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/commentTemplate.html
+Total=1
+RequestHeaderFile=t190_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t190_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_190.xml

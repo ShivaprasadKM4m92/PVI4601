@@ -1,0 +1,11 @@
+[t137]
+FileName1=t137_q.json
+URL1=http://10.100.22.240:3000/ImageStamp/UENDLUNoZWNrbWFyay1JbWFnZS1TdGFtcC5wbmc=/q?format=Base64
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_137.xml
+RequestHeaderFile=t137_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t137_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

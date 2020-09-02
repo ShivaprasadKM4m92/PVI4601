@@ -1,0 +1,11 @@
+[t40]
+FileName1=t40_application-a0469687a4859320633b35ed9c5374ee.html
+URL1=http://10.100.22.243:8081/assets/application-a0469687a4859320633b35ed9c5374ee.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_40.xml
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t40_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

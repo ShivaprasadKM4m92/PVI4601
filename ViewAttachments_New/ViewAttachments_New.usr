@@ -1,0 +1,76 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=ViewAttachments_New.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="ViewAttachments_01_OpenApplication__*delimiter*__ViewAttachments_02_Login__*delimiter*__ViewAttachments_03_NavigateToPVIntake__*delimiter*__ViewAttachments_04_IntakeQueueMyCases__*delimiter*__ViewAttachments_05_IntakeQueueAllCases__*delimiter*__ViewAttachments_06_FilterIntakeCaseNum__*delimiter*__ViewAttachments_07_ViewAttachment10MB__*delimiter*__ViewAttachments_09_FilterCase__*delimiter*__ViewAttachments_10_ViewAttachment1MB__*delimiter*__ViewAttachments_12_SortCaseNum__*delimiter*__ViewAttachments_13_ViewAttachment500KB__*delimiter*__ViewAttachments_14_ClearFilter__*delimiter*__ViewAttachments_IntakeQueueMyCases__*delimiter*__ViewAttachments_NavigateToPVAdmin__*delimiter*__ViewAttachments_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+ViewAttachments_01_OpenApplication=
+ViewAttachments_02_Login=
+ViewAttachments_03_NavigateToPVIntake=
+ViewAttachments_04_IntakeQueueMyCases=
+ViewAttachments_05_IntakeQueueAllCases=
+ViewAttachments_06_FilterIntakeCaseNum=
+ViewAttachments_07_ViewAttachment10MB=
+ViewAttachments_09_FilterCase=
+ViewAttachments_10_ViewAttachment1MB=
+ViewAttachments_12_SortCaseNum=
+ViewAttachments_13_ViewAttachment500KB=
+ViewAttachments_14_ClearFilter=
+ViewAttachments_IntakeQueueMyCases=
+ViewAttachments_NavigateToPVAdmin=
+ViewAttachments_Logout=
