@@ -1,0 +1,14 @@
+POST /caseEntry/fetchDocument HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+Content-Length: 82
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://10.100.22.243:8081
+Referer: http://10.100.22.243:8081/caseEntry/fetchDocument?id=87467&viewerId=attachmentView&isDisplayView=true&redact=undefined
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=d2a7a715-972f-46c5-a343-cf848d8fcc8f; AuthType=Database
+

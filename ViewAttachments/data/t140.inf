@@ -1,0 +1,11 @@
+[t140]
+FileName1=t140_Text.json
+URL1=http://10.100.22.240:3000/Document/q/1-1/Text?DocumentID=uHR71XjQ-NU-U1zVuGzkHJZl92H4UeqokY4Dd_mbJlHW1lmNEV8bQWyKVrHtxQ0wJizhg2DXCzj2Ic2pLl2pTsQ
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_140.xml
+RequestHeaderFile=t140_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t140_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

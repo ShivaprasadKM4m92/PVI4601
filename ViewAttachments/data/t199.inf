@@ -1,0 +1,9 @@
+[t199]
+FileName1=t199.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html
+Total=1
+RequestHeaderFile=t199_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t199_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_199.xml

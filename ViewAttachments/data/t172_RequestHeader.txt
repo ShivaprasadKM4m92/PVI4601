@@ -1,0 +1,10 @@
+GET /Document/q/0-0/Text?DocumentID=u1U-WnDaH-cycBpTZ9NXuHxdwWza-WcNpJ7QAgKzNk7i8kGpKE6OLHD2-OYZymGLbUy7OTG-86G5Zjr0FIlLVmw HTTP/1.1
+Host: 10.100.22.240:3000
+Connection: keep-alive
+accept: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Origin: http://10.100.22.243:8081
+Referer: http://10.100.22.243:8081/caseEntry/fetchDocument?id=87467&viewerId=attachmentView&isDisplayView=true&redact=undefined
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+

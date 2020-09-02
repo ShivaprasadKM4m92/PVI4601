@@ -1,0 +1,9 @@
+[t204]
+SnapshotXmlFile=snapshot_204.xml
+FileName1=t204.txt
+URL1=http://10.100.22.240:3000/License/ClientViewer?v=8.4&iv=9054C549-3FDD8E70-37E1A035-77955626&p=24
+Total=1
+RequestHeaderFile=t204_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t204_ResponseHeader.txt
+ContentType=text/plain

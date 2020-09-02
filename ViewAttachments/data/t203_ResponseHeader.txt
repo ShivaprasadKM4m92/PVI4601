@@ -1,0 +1,11 @@
+HTTP/1.1 204 No Content
+X-Powered-By: Express
+Access-Control-Allow-Origin: http://10.100.22.243:8081
+Vary: Origin, Access-Control-Request-Headers
+Access-Control-Allow-Methods: GET,POST,PUT,DELETE
+Access-Control-Allow-Headers: content-type
+Access-Control-Expose-Headers: Content-Type,Content-Length,Accusoft-Data-Encrypted,Accusoft-Data-SK,Accusoft-Status-Message,Accusoft-Status-Number,Access-Control-Allow-Origin
+Content-Length: 0
+Date: Tue, 01 Sep 2020 16:44:30 GMT
+Connection: keep-alive
+

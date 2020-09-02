@@ -1,0 +1,11 @@
+[t207]
+FileName1=t207.html
+URL1=http://10.100.22.240:3000/Document/q/Attributes?DocumentID=uD0_C9CHHIOrDkf3DlR5uWhufmOF7V17CBkEkszA2YDSJ_Gwanh_c3kTnF1a1C9_yG9A9fRml_QUG2dmicFyF5Q&DesiredPageCountConfidence=50
+Total=1
+RequestHeaderFile=t207_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t207_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_207.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
